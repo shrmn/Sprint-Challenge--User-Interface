@@ -71,6 +71,15 @@ p {
     margin: 0 auto;
 }
 
+.nav-bar {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
