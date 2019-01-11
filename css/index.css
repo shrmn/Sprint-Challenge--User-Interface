@@ -71,7 +71,7 @@ p {
     margin: 0 auto;
 }
 
-header {
+.nav-bar {
     display: flex;
     margin: 30px 0;
     margin-bottom: 60px;
@@ -83,6 +83,7 @@ header {
 nav {
     display: flex;
     width: 80%;
+    margin-left: 30px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -108,9 +109,17 @@ header img {
 }
 
 .top-content .text-container {
-    width: 48%;
+    /* width: 48%; */
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .index-top {
+    width: 48%;
+}
+
+.text-container .about-top {
+    width: 100%;
 }
 
 .middle-content {
@@ -118,9 +127,43 @@ header img {
     border-bottom: 1px dashed black;
 }
 
+.middle-content .text-container {
+    width: 48%;
+}
+
 .middle-content h2 {
     padding: 0 2%;
+    margin: 20px auto;
     margin-bottom: 0;
+}
+
+.middle-content p {
+    padding: 0 2%;
+    margin: 20px auto;
+}
+
+.middle-content button {
+    padding: 10px 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background: white;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    border-bottom: 0px;
+}
+
+.about-middle .text-container {
+    margin: 20px auto;
+}
+
+.about-middle .text-container {
+    border-bottom: 1px dashed black;
 }
 
 .middle-content .boxes {
@@ -183,8 +226,15 @@ header img {
 
 .bottom-content {
     display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .bottom-content .text-container {
