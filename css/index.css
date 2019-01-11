@@ -159,11 +159,15 @@ header img {
 }
 
 .about-middle .text-container {
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 .about-middle .text-container {
     border-bottom: 1px dashed black;
+}
+
+.about-middle img {
+    width: 100%;
 }
 
 .middle-content .boxes {
